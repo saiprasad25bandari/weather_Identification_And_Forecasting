@@ -1,0 +1,65 @@
+.Detect {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/874/132/small/abstract-geometric-white-background-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  .upload-heading{
+    color:rgb(14, 14, 15);
+  }
+  .upload-container {
+    
+    text-align: center;
+    box-shadow: 0 0 px #bac3c3;
+    padding:30px;
+    width: 100%;
+    border: 3px solid rgb(16, 13, 8);
+    
+    backface-visibility: visible;
+    border-radius:30px ;
+    /* margin-right: 10px; */
+    background-color:rgba(212, 162, 109, 0.5);
+    /* max-width: 1000px; */
+  }
+  .colored-button {
+    background-color: rgb(58, 65, 208); /* Replace 'blue' with the desired background color */
+    color: white; /* Replace 'white' with the desired text color */
+    border: 2px solid white;
+    border-radius: 15px; /* Make the button oval-shaped */
+    width: 100%; /* Occupy the full width of the container */
+    height: 100%; 
+  }
+  
+  
+  .small-image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .kkk { 
+  width: 90%; /* Adjust the width as needed */
+  height: 90%; /* Adjust the height as needed */
+  border: 2px solid gray; /* Add a border to the container */
+  border-radius: 15px; /* Add border radius to create curved corners */
+  /* Add padding for spacing */
+
+  /* Additional styling if desired */
+  color:aliceblue;
+  background-color: rgba(20, 12, 12, 0.915); 
+   
+   } 
+  
+  
+  .reshead{
+    /* color:antiquewhite; */
+  } 
+  @media (max-width: 768px) {
+    .Detect {
+      flex-direction: column;
+    }
+}

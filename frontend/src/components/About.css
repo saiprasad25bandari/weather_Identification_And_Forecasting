@@ -1,0 +1,135 @@
+/* 
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position:absolute ;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color:#0d0d0d
+}
+.article{
+    float:left;
+    width:55%;
+    
+}
+.image{
+    float: right;
+    display:block;
+    width:40%;
+}
+.image img{
+    width:100%;
+    height:auto;
+}
+@media screen and (max-width:768px){
+    .container{
+        width:80%;
+        display:block;
+        margin:auto;
+    }
+    .article{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+        background-image: url('https://w0.peakpx.com/wallpaper/745/1/HD-wallpaper-material-design-art-yellow-and-black-lines-dark-background-creative.jpg');
+    background-size: cover;
+
+    }
+    .image{
+        float:none;
+        width:100%;
+        margin-top: 50px;
+    }
+    .image img{
+        width:100%;
+        height: auto;
+        display:block;
+        margin: auto;
+    }
+
+}
+/* .section{
+margin-top: 200px;
+} */ 
+
+
+.container{
+    width:80%;
+    display:block;
+    margin:0px auto;
+    padding:50px 0px;
+}
+
+.title{
+    width:100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#201e94;
+    font-weight:bold;
+    border-bottom: 2px solid rgb(55, 61, 152);
+    padding-bottom: 10px;
+}
+.article{
+    float:left;
+    width:55%;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    color:black;
+}
+.image{
+    float: right;
+    display:block;
+    width:40%;
+}
+.image img{
+    width:100%;
+    height:auto;
+}
+@media screen and (max-width:768px){
+    .container{
+        width:80%;
+        display:block;
+        margin:auto;
+    }
+    .article{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+    }
+    .image{
+        float:none;
+        width:100%;
+        margin-top: 50px;
+    }
+    .image img{
+        width:100%;
+        height: auto;
+        display:block;
+        margin: auto;
+    }
+
+}
+.section{
+ padding-bottom:50px;
+} 

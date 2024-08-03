@@ -1,0 +1,16 @@
+.small-image {
+    max-width: 300px; /* Adjust the value as per your requirements */
+    max-height: 300px; /* Adjust the value as per your requirements */
+}
+
+.upload-container {
+    border: 1px solid #dd0c0c;
+    padding: 20px;
+    margin: 0 auto; /* Center-align the container */
+    background-color:rgb(99, 189, 124); /* Light white background color */
+    max-width: 400px; /* Adjust the maximum width of the container as needed */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

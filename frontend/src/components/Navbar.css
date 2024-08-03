@@ -1,0 +1,54 @@
+ /* .navbar{
+    background-color:transparent;
+} 
+k{
+    /* color:white; */
+    /* font-size:20px; */
+  /* } */
+   /* .fa-solid{
+        color:white;
+        width:20px;
+      } */
+/* .nav-item{
+    padding: 5px;
+} */
+
+/* .nav-link active{
+    background-color: white;
+} */
+/* .nav-link:hover{
+    background-color:rgb(211, 166, 166)
+} */ 
+/* **************************************************************************** */
+
+k{
+    /* color:white; */
+    font-size:20px;
+  }
+   /* .fa-solid{
+        color:white;
+        width:20px;
+      } */
+.nav-item{
+    padding: 5px;
+}
+.nav-link active{
+    background-color: white;
+}
+.nav-link:hover{
+    background-color:white
+}
+.navbar-brand img{
+    width:40px;
+    height:40px;
+}
+.navbar{
+    /* background-color: transparent; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+

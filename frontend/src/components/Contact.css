@@ -1,0 +1,40 @@
+.title1{
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title1 h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    color:#761689;
+}
+.map{
+    /* float:right; */
+    /* justify-content: center; */
+    text-align: center;
+    z-index: 3;
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    touch-action: pan-x pan-y;
+}
+.add-content{
+    /* float:left; */
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;;
+    background-color: rgb(126, 226, 222);
+    width:400px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.bg-image {
+    background-image: url("https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-37hacs394rfnlye6q17b1otbsizghpa9fhni65z6lb6gploak.jpeg");
+  }
+  
